@@ -3,4 +3,6 @@ provider "aws"{
   access_key =""
   secret_key = ""
   
-  
+}
+
+resourece "aws_instance_ec2" "pipelinetest"
